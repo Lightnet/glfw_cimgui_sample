@@ -7,6 +7,8 @@
 
   Using the msys64 compiler for small dev build on windows 64 bit.
 
+  There are two github repo to build this sample application.
+
   Note you might need to install some packages to support it. There are at least +5 pacakges needed to install. Can't remember better search engine to find and install.
 
 # Toolchain:
@@ -55,6 +57,13 @@ if %ERRORLEVEL% neq 0 (
 echo Build completed successfully. Log saved to build\cmake_log.txt
 endlocal
 ```
+
+# Notes:
+
+```
+ImGui_Begin > igBegin 
+```
+ There some convert change to reflect c format for easy to read. The prefixed ImGui_"name" for c++ for c is ig"name". File easy found in cimgui.cpp for api.
 
 
 # Credits:
